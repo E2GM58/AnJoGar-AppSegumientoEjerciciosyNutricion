@@ -340,4 +340,9 @@ export class PrincipalComponent {
 
     this.router.navigate(['/Ejercicio']);
   }
+
+  Alimento(){
+
+    this.router.navigate(['/Alimentos']);
+  }
 }

@@ -26,7 +26,7 @@
     <section class="pestanas-section">
       <div class="pestanas">
         <a routerLink="/PaginaPrincipal">Página principal</a>
-        <a routerLink="/PaginaPrincipal">Alimentos</a>
+        <a routerLink="/Alimentos">Alimentos</a>
         <a (click)="Ingresar() " class="clickable-link">Ejercicios</a>
         <a routerLink="/PaginaPrincipal">Perfil</a>
       </div>
@@ -48,7 +48,7 @@
                   <div class="calorias-numero">2322</div>
               </div>
               <div class="acciones">
-                  <button mat-raised-button color="primary">Añadir Alimento</button>
+                  <button mat-raised-button color="primary" (click)="Alimento()">Añadir Alimento</button>
                   <button mat-raised-button color="primary" (click)="Ingresar()">Añadir Ejercicio</button>
               </div>
           </div>
